@@ -1,4 +1,60 @@
 <!DOCTYPE HTML>
 <html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/png" href="media/favicon/favicon.png"/>
+    <title>Fight Against Cancer | Home</title>
+</head>
+
+<body>
+    <nav>
+        <p><a href="index.html">Home</a> | <a href="about.html" class="About">About</a> | <a href="contact.html" class="Contact">Contact</a></p>
+    </nav>
     
+    <center>
+        <img src="media/favicon/favicon.png" width="8%"/>
+        <h1>FIGHT AGAINST CANCER</h1>
+        <h5>Donate to cancer research and join the researchers who are leading the way against cancer.</h5>
+        <h5>------------------------------------------------------------------------------------------</h5>
+        <br>
+    </center>
+
+    <div id="credit-card">
+        <div id="side-one">
+            <div id="shadow"></div>
+
+            <p id="amount">Amount: <strong>$0</strong></p>
+            <br><br><br>
+
+            <p>Cardholder's Name</p>
+            <input type="text" id="cardholder-name" placeholder="John Doe" maxlength="40" required/>
+
+            <div id="card-number-container">
+                <p>Card Number</p>
+                <input type="text" id="card-number" placeholder="0000 0000 0000 0000" maxlength="19" required/>
+            </div>
+
+            <div id="exp-date-container">
+                <p>Exp. Date</p>
+                <input id="exp-month" type="text" placeholder="MM" maxlength="2" required/>
+                <input id="exp-year" type="text" placeholder="YY" maxlength="2" required/>
+            </div>
+
+            <div id="cvc-container">
+                <p>CVC</p>
+                <input id="cvc" placeholder="0000" type="text" maxlength="4" required/>
+            </div>
+        </div>
+
+        <div id="side-two">
+            <div id="magnetic-bar"></div>
+        </div>
+
+        <input type="text" id="card-token" />
+        <button type="submit" id="button">DONATE!</button>
+    </div>
+</body>
+
+<script src="js/credit-card.js"></script>
 </html>
