@@ -1,0 +1,180 @@
+body {
+  color:#FFFFFF;
+  font-size: 14px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: url('../media/images/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  color:rgb(0, 72, 128);
+}
+
+h2 {
+  color:rgb(0, 96, 170);
+}
+
+h5 {
+  color:rgb(0, 38, 80);
+}
+
+p {
+  color: #FFFFFF;
+  line-height: 0.002
+}
+
+a {
+  color: #000000;
+  line-height: 0.002
+}
+
+a:hover {
+  color: #0078B1;
+  line-height: 0.002
+}
+
+input {
+  color: rgb(255, 218, 0);
+  border: none; outline: none;
+  background-color: #00000025;
+  width: 25%; height: 30px;
+  line-height: 30px;
+  padding: 0 10px; margin: 0 0 25px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  letter-spacing: 1px;
+}
+
+::placeholder {
+  color: #FFFFFF8F;
+  font-weight: bold;
+}
+
+#amount {
+  float: right;
+}
+
+#credit-card {
+  width: 500px; height: 285px;
+  margin: auto; position: relative;
+}
+
+#side-one {
+  background-image: linear-gradient(#006888,#00ACE0);
+  width: 400px; height: 240px; border-radius: 5px; padding: 20px; 
+  position: absolute; box-sizing: border-box;
+  z-index: 1;
+}
+
+#side-two {
+  background-image: linear-gradient(#006888,#00ACE0);
+  width: 400px; height: 240px; border-radius: 5px; padding: 20px; 
+  position: absolute; box-sizing: border-box;
+  right: 0; top: 50px; z-index: -1;
+}
+
+#card-number {
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  width: 100%;
+}
+
+#cardholder-name {
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  width: 100%;
+}
+
+#exp-month {
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  width: 48%;
+}
+  
+#exp-year {
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  width: 48%;
+}
+
+#cvc {
+  font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  width: 58%;
+}
+
+#message {
+  width: 50.2%; height: 100px;
+}
+
+#card-number-container {
+  width: 60%;
+  display: inline-block;
+}
+
+#exp-date-container {
+  width: 35%;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+#cvc-container {
+  width: 110px;
+  padding-left: 20px;
+  right: -115px; bottom: -10px;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+#button {
+  font-size: 14px;
+  color:  rgb(255, 255, 255);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color:#00ACE0B6;
+  width: 150px; height: 42px; border-radius: 5px;
+  outline: none; border: none;
+  right: 0; bottom: -60px;
+  position: absolute;
+  cursor: pointer;
+}
+
+#button:hover {
+  background-color: #006888;
+}
+
+#submit {
+  font-size: 14px;
+  color:  rgb(255, 218, 0);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color:#00ACE0B6;
+  width: 50.2%; height: 42px; border-radius: 5px;
+  outline: none; border: none;
+  cursor: pointer;
+}
+  
+#submit:hover {
+  background-color: #006888;
+}
+
+#shadow {
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
+  width: 308px; height: 204px;
+  border-radius: 8px;
+  right: 0; top: 36px;
+  position: absolute;
+}
+
+#magnetic-bar {
+  width: 100%; height: 55px;
+  background-color: #002242;
+  position: absolute;
+  right: 0;
+}
